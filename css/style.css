@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-caption{
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+.la{
+    position: relative;
+}
+.la:hover{
+    background-color: rgb(9, 9, 9);
+
+}
+.btnbefo:hover::after{
+    content: "copy to clipboard";
+    display: block;
+}
+.btnbefo:active::after{
+    content: "copied";
+    display: block;
+    height: 25px;
+}
+
+    .python-card{
+        margin-left: 40px;
+        font-size: 20px;
+        color: aqua;
+    }
+    .fixedimg{
+        background-attachment: fixed;
+        background-size: cover;
+        height: 250px;
+        }
+    .fixedimg1{
+        background-image: url(../pictures/t.jpg);
+        }
+        .fixedimg2{
+            background-image: url(../pictures/images.jpg);
+            }
+            
